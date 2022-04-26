@@ -1,0 +1,111 @@
+/*colors:
+gris 353535
+azulVerde 3C6E71
+fff
+grisclaro D9D9D9
+azul oscuro 284B63
+azul claro 81929E
+41EAD4
+
+fonts:
+font-family: 'Montserrat', sans-serif;
+
+200
+400
+600
+700
+*/
+
+body{
+    background: #353535;
+    padding: 3em;
+}
+h1{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.main-img{
+    width: 20em;
+    margin-right: 10em;
+    border-radius: 20px;
+    
+}
+h2{
+    color: #D9D9D9;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    padding-top: 1em;
+}
+h3{
+    color: #41EAD4;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.sub-title-espanol{
+    color: #D9D9D9;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    padding-top: 0.2em;
+}
+
+/* The sidebar menu */
+.sidenav {
+    height: 550px; /* Full-height: remove this if you want "auto" height */
+    width: 270px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-left: 1em;
+    background-color: #1F1F1F;
+    margin: 1em;
+    border-radius: 40px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 50px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #EBEBEB;
+    display: block;
+  }
+  .sidenav p{
+    color: #D9D9D9;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    padding-top: 0.2em;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #3C6E71;
+    transition: all ease .2s;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 300px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media only screen and (max-width: 1350px) {
+    .sidenav{
+        display: none;
+    }
+    .main{
+        margin-left: 0px;
+    }
+    .main-img{
+        margin-right: 0em;
+    }
+    h1{
+        font-size: 30px;
+    }
+  }
