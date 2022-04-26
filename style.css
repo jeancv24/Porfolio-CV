@@ -51,6 +51,23 @@ h3{
     font-size: 20px;
     padding-top: 0.2em;
 }
+.text{
+    color: #D9D9D9;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 0.2em;
+}
+.line{
+    width: 70px;
+    height: 2px;
+    padding: 0;
+    background: #41EAD4;
+    display: block;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    border-radius: 20px;
+}
 
 /* The sidebar menu */
 .sidenav {
@@ -107,5 +124,16 @@ h3{
     }
     h1{
         font-size: 30px;
+    }
+    .about-col{
+        width: 400px;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .about-col{
+        width: 600px;
+    }
+    .name-title{
+        width: 600px;
     }
   }
