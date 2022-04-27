@@ -68,6 +68,9 @@ h3{
     margin-bottom: 1.5em;
     border-radius: 20px;
 }
+svg{
+    color: #fff;
+}
 
 /* The sidebar menu */
 .sidenav {
