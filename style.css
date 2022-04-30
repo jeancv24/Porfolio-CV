@@ -85,6 +85,59 @@ svg{
 }
 /*knoledge*/
 
+/*Portfolio*/
+.image-size {
+    width: 100%;
+}
+
+.porfolio-container {
+    margin: 0 2em 2.5em 2em;
+    background-color: #3c3c3c;
+    border-radius: 5px;
+    width: 300px;
+    padding: 0;
+}
+
+.portfolio-title {
+    margin: 0 0 0.5em 1em;
+    padding: 0.5em 0 0 0;
+    font-size: 1.4em;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.description {
+    position: relative;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    margin: 1em;
+    padding: 0em;
+    color: #fff;
+}
+
+.btn-vermas{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #6fb2de;
+    margin: 0.2em 0 1em 0;
+    width: 280px;
+    border-radius: 15px;
+}
+.btn-vermas:hover{
+    color: #3C6E71;
+    transition: all ease .1s;
+    text-decoration: underline;
+}
+.porfolio-icons{
+    display: inline;
+}
+/*Portfolio*/
+
 /* The sidebar menu */
 .sidenav {
     height: 550px; /* Full-height: remove this if you want "auto" height */
