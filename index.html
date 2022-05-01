@@ -17,10 +17,10 @@
 <body>
     <!-- Side navigation -->
     <div class="sidenav">
-        <a href="#">About<p>Sobre mi</p></a>
-        <a href="#">Knowledge<p>Mi conocimiento</p></a>
-        <a href="#">Portfolio<p>Portafolio</p></a>
-        <a href="#">Personal information<p>Información personal</p></a>
+        <a href="#landing" onclick="moveToSection(1)">About<p>Sobre mi</p></a>
+        <a href="#knowledge"  onclick="moveToSection(2)">Knowledge<p>Mi conocimiento</p></a>
+        <a href="#portfolio" onclick="moveToSection(3)">Portfolio<p>Portafolio</p></a>
+        <a href="#personalinfo"  onclick="moveToSection(4)">Personal information<p>Información personal</p></a>
     </div>
     <!-- content -->
     <div class="main">
@@ -76,7 +76,7 @@
         <!--about-->
         <!--Knowledge-->
         <div class="pt-5 mt-5">
-            <h3>Knowledge</h3>
+            <h3 id="knowledge">Knowledge</h3>
             <p class="sub-title-espanol">Mi conocimiento</p>
             <p class="text">Knowledge in different software development tools such as Android Studio, Java, HTML, CSS, among others. To develop the frontend and backend of websites, java programs, WordPress sites, etc. As well as interface design through prototyping platforms, in addition to graphic design thanks to the use of design software.</p>
             <p class="text">Here are the different platforms and tools that are part of my computer knowledge.</p>
@@ -178,7 +178,7 @@
         <!--Knowledge-->
         <!--Portfolio-->
         <div class="pt-5 mt-5">
-            <h3>Portfolio</h3>
+            <h3 id="portfolio">Portfolio</h3>
             <p class="sub-title-espanol">Portafolio</p>
             <p class="text">Here are some of the practices with the previous tools.</p>
             <span class="line"></span>
@@ -291,5 +291,6 @@
         </div>
         <!--Portfolio-->
     </div>
+    <script src="./main.js"></script>
 </body>
 </html>
