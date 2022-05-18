@@ -138,6 +138,20 @@ svg{
 }
 /*Portfolio*/
 
+/*Personal info*/
+.info-links{
+    text-decoration: none;
+    color: #6fb2de;
+}
+.info-links:hover{
+    color: #41EAD4;
+    transition: all ease .2s;
+}
+.personal-info-svg{
+    min-width: 35px;
+}
+/*Personal info*/
+
 /* The sidebar menu */
 .sidenav {
     height: 550px; /* Full-height: remove this if you want "auto" height */
