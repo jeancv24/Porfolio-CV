@@ -27,9 +27,8 @@ h1{
     font-weight: 700;
 }
 .main-img{
-    width: 20em;
-    margin-right: 10em;
-    border-radius: 20px;
+    width: 25em;
+    margin-right: 3em;
     
 }
 h2{
@@ -142,6 +141,9 @@ svg{
 .info-links{
     text-decoration: none;
     color: #6fb2de;
+}
+.info-links svg{
+    margin-left: .3em;
 }
 .info-links:hover{
     color: #41EAD4;
