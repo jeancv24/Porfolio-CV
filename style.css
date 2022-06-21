@@ -70,6 +70,29 @@ h3{
 svg{
     color: #fff;
 }
+/*btn CV*/
+.btn-resume {
+    text-decoration: none;
+    background-color: #41EAD4;
+    width: 240px;
+    height: 80px;
+    padding: 7px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #353535;
+    text-align: center;
+    margin-left: 0px;
+}
+.btn-resume p{
+    font-weight: 400;
+}
+.btn-resume:hover {
+    transition: all ease 0.3s;
+    background-color: #3C6E71;
+    color: #41EAD4;
+}
 
 /*knoledge*/
 .platforms-names{
