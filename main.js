@@ -37,5 +37,15 @@ function moveToSection(clickedButton){
                 behavior: 'smooth'
             });
         break;
+
+        case 4:
+            let exp = document.getElementById("experience");
+            let expPosition = info.getBoundingClientRect();
+            console.log(infoPosition.y);
+            window.scroll({//mueve el scroll
+                top: infoPosition.y,
+                behavior: 'smooth'
+            });
+        break;
     }
 }

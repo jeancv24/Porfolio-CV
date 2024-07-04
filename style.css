@@ -50,6 +50,18 @@ h3{
     font-size: 20px;
     padding-top: 0.2em;
 }
+.sub-experience{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-top: 0.2em;
+
+    text-decoration: none;
+    font-weight: 600;
+    color: #6fb2de;
+    margin: 0.2em 0 1em 0;
+    width: 280px;
+    border-radius: 15px;
+}
 .text{
     color: #D9D9D9;
     font-family: 'Montserrat', sans-serif;
@@ -74,8 +86,7 @@ svg{
 .btn-resume {
     text-decoration: none;
     background-color: #41EAD4;
-    width: 240px;
-    height: 80px;
+    width: 200px;
     padding: 7px;
     border-radius: 20px;
     font-family: 'Montserrat', sans-serif;
@@ -179,7 +190,7 @@ svg{
 
 /* The sidebar menu */
 .sidenav {
-    height: 550px; /* Full-height: remove this if you want "auto" height */
+    height: 480px; /* Full-height: remove this if you want "auto" height */
     width: 270px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     top: 0; /* Stay at the top */
